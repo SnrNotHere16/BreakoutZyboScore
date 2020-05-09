@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1589035130">
+  <File Type="ROUTE-PWR" Name="ZyboBreakoutScoreCalc_wrapper_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="ZyboBreakoutScoreCalc_wrapper.tcl"/>
+  <File Type="BITSTR-BMM" Name="ZyboBreakoutScoreCalc_wrapper_bd.bmm"/>
+  <File Type="ROUTE-PWR-SUM" Name="ZyboBreakoutScoreCalc_wrapper_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="ZyboBreakoutScoreCalc_wrapper_reports.tcl"/>
+  <File Type="OPT-DCP" Name="ZyboBreakoutScoreCalc_wrapper_opt.dcp"/>
+  <File Type="OPT-DRC" Name="ZyboBreakoutScoreCalc_wrapper_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="ZyboBreakoutScoreCalc_wrapper.hwdef"/>
+  <File Type="PWROPT-DCP" Name="ZyboBreakoutScoreCalc_wrapper_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="ZyboBreakoutScoreCalc_wrapper_placed.dcp"/>
+  <File Type="PLACE-IO" Name="ZyboBreakoutScoreCalc_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="ZyboBreakoutScoreCalc_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="ZyboBreakoutScoreCalc_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="ZyboBreakoutScoreCalc_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="ZyboBreakoutScoreCalc_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="ZyboBreakoutScoreCalc_wrapper.bgn"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="ZyboBreakoutScoreCalc_wrapper_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="ZyboBreakoutScoreCalc_wrapper.bin"/>
+  <File Type="PHYSOPT-DCP" Name="ZyboBreakoutScoreCalc_wrapper_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="ZyboBreakoutScoreCalc_wrapper.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="ZyboBreakoutScoreCalc_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="ZyboBreakoutScoreCalc_wrapper_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="ZyboBreakoutScoreCalc_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="ZyboBreakoutScoreCalc_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="ZyboBreakoutScoreCalc_wrapper_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="ZyboBreakoutScoreCalc_wrapper_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="ZyboBreakoutScoreCalc_wrapper.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="ZyboBreakoutScoreCalc_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="ZyboBreakoutScoreCalc_wrapper.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="ZyboBreakoutScoreCalc_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="ZyboBreakoutScoreCalc_wrapper_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="ZyboBreakoutScoreCalc_wrapper.sysdef"/>
+  <File Type="ROUTE-PWR-RPX" Name="ZyboBreakoutScoreCalc_wrapper_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="ZyboBreakoutScoreCalc_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="ZyboBreakoutScoreCalc_wrapper_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="ZyboBreakoutScoreCalc_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="ZyboBreakoutScoreCalc_wrapper_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="ZyboBreakoutScoreCalc_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="ZyboBreakoutScoreCalc_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="ZyboBreakoutScoreCalc_wrapper_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="ZyboBreakoutScoreCalc_wrapper_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="ZyboBreakoutScoreCalc_wrapper_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="ZyboBreakoutScoreCalc_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="ZyboBreakoutScoreCalc_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="ZyboBreakoutScoreCalc_wrapper.bit"/>
+  <File Type="BITSTR-RBT" Name="ZyboBreakoutScoreCalc_wrapper.rbt"/>
+  <File Type="BITSTR-NKY" Name="ZyboBreakoutScoreCalc_wrapper.nky"/>
+  <File Type="BG-DRC" Name="ZyboBreakoutScoreCalc_wrapper.drc"/>
+  <File Type="RDI-RDI" Name="ZyboBreakoutScoreCalc_wrapper.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/ZyboBreakoutScoreCalc/ZyboBreakoutScoreCalc.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/ZyboBreakoutScoreCalc/hdl/ZyboBreakoutScoreCalc_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Score.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ScoreTop.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/ZyboBreakoutScore_0/ZyboBreakoutScore_0.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="ZyboBreakoutScoreCalc_wrapper"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/ZyboZ7.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="ZyboBreakoutScoreCalc_ZyboBreakoutScore_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZyboBreakoutScoreCalc_auto_pc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZyboBreakoutScoreCalc_processing_system7_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZyboBreakoutScoreCalc_rst_ps7_0_50M_0"/>
+</GenRun>

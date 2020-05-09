@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat May  9 07:42:06 2020
+# Process ID: 14284
+# Current directory: C:/Users/OAkun/Desktop/School/CECS361/ZyboBreakoutScoreCalc/ZyboBreakoutScoreCalc.runs/impl_1
+# Command line: vivado.exe -log ZyboBreakoutScoreCalc_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ZyboBreakoutScoreCalc_wrapper.tcl -notrace
+# Log file: C:/Users/OAkun/Desktop/School/CECS361/ZyboBreakoutScoreCalc/ZyboBreakoutScoreCalc.runs/impl_1/ZyboBreakoutScoreCalc_wrapper.vdi
+# Journal file: C:/Users/OAkun/Desktop/School/CECS361/ZyboBreakoutScoreCalc/ZyboBreakoutScoreCalc.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source ZyboBreakoutScoreCalc_wrapper.tcl -notrace
